@@ -1,3 +1,4 @@
+//Enter two numbers a and b,and print "helloworld" max{a,b} times.//
 #include<stdio.h>
 #include<stdlib.h>
 int main() {
@@ -11,8 +12,9 @@ int main() {
 		for (int i=1; i<=b;i++){
 			printf("HelloWorld\n") ;
 		}
-	}
+	}//We can use the for loop to print something many times.//
 	system("pause") ;
 	return 0 ;
 	
+
 }
