@@ -1,3 +1,4 @@
+//Decimal to Hexadecimal Converter//
 #include<stdio.h>
 #include<stdlib.h>
     int main(){
@@ -11,8 +12,9 @@
     }
     for(int j = i-1;j>=0;j--){
         printf("%c",hex[j]);
-    }
+    }// We can use the loop to traverse the elements in array//
 
     system("pause");
     return 0;
+
 }
